@@ -3,3 +3,11 @@
 // When you have solved this, create new values for your array and ensure it still works as expected.
 
 // YOUR CODE HERE
+
+var arr = [8,6,7,5,3,0,9];
+var arr1 = [];
+
+for(var i = arr.length - 1; i >= 0; i--){
+    arr1.push(arr[i]);
+}
+console.log(arr1);
